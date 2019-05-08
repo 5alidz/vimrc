@@ -1,7 +1,7 @@
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 Plugin 'gmarik/vundle'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'pangloss/vim-javascript'
@@ -37,6 +37,7 @@ Plugin 'Quramy/vim-js-pretty-template'
 "Plugin 'cespare/vim-toml'
 "Plugin 'racer-rust/vim-racer'
 "Plugin 'fatih/vim-go'
+call vundle#end()
 filetype plugin indent on
 
 " Use deoplete.
